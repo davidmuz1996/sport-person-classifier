@@ -14,3 +14,4 @@ model/cropped_data/
 # OS cruft
 .DS_Store
 Thumbs.db
+.claude/
