@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "flask-server",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["server.py"],
+      "cwd": "server",
+      "port": 5000
+    },
+    {
+      "name": "ui-static",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8080"],
+      "cwd": "UI",
+      "port": 8080
+    }
+  ]
+}

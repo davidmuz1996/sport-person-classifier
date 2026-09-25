@@ -1,0 +1,16 @@
+# Secrets - never commit
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Training data (large, copyright-unclear scraped photos)
+model/dataset/
+model/cropped_data/
+
+# OS cruft
+.DS_Store
+Thumbs.db
